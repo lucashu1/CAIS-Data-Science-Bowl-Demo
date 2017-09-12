@@ -48,6 +48,7 @@ biases = {'b_conv1':tf.Variable(tf.zeros([32])),
 saver = tf.train.Saver()
 
 
+# Forward pass through the CNN
 def convolutional_neural_network(x, keep_rate=KEEP_RATE):
     
 
@@ -86,6 +87,7 @@ validation_data = much_data[-2:]
 
 print("Done loading data! Starting the training process.\n")
 
+# For training the CNN on training scans
 def train_neural_network(x):
     samples_analyzed = 0
 
@@ -199,8 +201,7 @@ def train_neural_network(x):
 
 
 
-
-
+# For making cancer/not-cancer predictions on the test data (not included in repo)
 def predict_test_data(x):
     prediction = convolutional_neural_network(x, keep_rate = 1)
     probabilities = tf.nn.softmax(prediction)
