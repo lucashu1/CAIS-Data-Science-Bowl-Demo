@@ -1,7 +1,7 @@
 # CAIS-Data-Science-Bowl-Demo
 
 **Summary:** Takes in a numpy file containing preprocessed lung scans (each patient has 20 50x50 scan slices), and uses Matplotlib generates
-2D lung scan images in real time while training a convolutional neural network to predict whether or not the patient
+2D lung scan images in real time while training a convolutional neural network in TensorFlow to predict whether or not the patient
 has lung cancer.
 
 Created initially for the 2016 Data Science Bowl, and adapted into a demo for our AI club at USC ([CAIS++](http://caisplusplus.usc.edu/)).
