@@ -4,7 +4,7 @@
 2D lung scan images in real time while training a convolutional neural network in TensorFlow to predict whether or not the patient
 has lung cancer.
 
-Created initially for the 2016 Data Science Bowl, and adapted into a demo for our AI club at USC ([CAIS++](http://caisplusplus.usc.edu/)).
+Created initially for the [2017 Data Science Bowl](https://www.kaggle.com/c/data-science-bowl-2017), and adapted into a demo for our AI club at USC ([CAIS++](http://caisplusplus.usc.edu/)).
 
 <br>
 
